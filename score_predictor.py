@@ -230,7 +230,7 @@ predicted1 = model.predict(xTest)
 score = model.score(xTest, yTest)*100
 print("Accuracy: {:.2f}%".format(score))
 cm1=confusion_matrix(yTest, predicted1, labels=['H', 'A', 'D'])
-print("\nConfustion matrix:")
+print("\nConfusion matrix:")
 print(cm1)
 
 print("\n##########################################")
@@ -241,7 +241,7 @@ predicted2 = model2.predict(xTest)
 score = model2.score(xTest, yTest)*100
 print("Accuracy: {:.2f}%".format(score))
 cm2=confusion_matrix(yTest, predicted2, labels=['H', 'A', 'D'])
-print("\nConfustion matrix:")
+print("\nConfusion matrix:")
 print(cm2)
 
 ### Prints actual team names to display a better intuition of the match and
