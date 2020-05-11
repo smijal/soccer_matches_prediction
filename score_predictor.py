@@ -52,8 +52,7 @@ print("#######      Soccer winning team predictor       #######")
 print("########################################################")  
 
 ####################### Datapath ##########################
-#root = input("\nEnter datapath to folder: ") 
-root = "C:/Users/hazar/Desktop/PL_score_prediction"
+root = input("\nEnter datapath to folder: ") 
 fileNames = os.listdir(root)
 print("\nSelect league: ")
 
